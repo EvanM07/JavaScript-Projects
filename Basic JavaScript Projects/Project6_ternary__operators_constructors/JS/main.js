@@ -1,5 +1,5 @@
 // TERNARY OPERATOR
-function Ride_function() {
+function Ride_Function() {
     var Height, can_ride;
     Height = document.getElementById("Height").value;
     can_ride = (Height >=52) ? "You are too short":"You are tall enough";
@@ -56,3 +56,8 @@ function count_Function() {
     }
 }
 
+function get_Date() {
+    if (new Date ().getHours() <18) {
+        document.getElementById("Greeting").innerHTML
+    }
+}
