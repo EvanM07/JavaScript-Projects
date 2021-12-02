@@ -22,8 +22,8 @@ function Vehicle(Make, Model, Year, Color) {
 var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
 var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and black");
 var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
-function myFunction() {
-    document.getElementById("Keywords_and_Constructors").innerHTML = "Erick drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + "manufactured in  " + Erik.Vehicle_Year;
+function my_Function() {
+    document.getElementById("Keywords_and_Constructors").innerHTML = "Erick drives a " + Erik.Vehicle_Make + "the color is  " + Erik.Vehicle_Model + "manufactured in  " + Erik.Vehicle_Year;
 }
 
 //TESTING IN VALID VALUES FOR VARIABLES 
@@ -41,7 +41,7 @@ function Phone(Screen_size, Resolution, CPU, RAM,) {
 }
 var Samsung_Galaxy_S10 = new Phone(6.1, 1440, "Snapdragon855", "8 gigabytes")
 function object_mine() {
-    document.getElementById("New_and_This").innerHTML = "The Samsung Galaxy S10 has a " + Samsung_Galaxy_S10.Screen_size + "the resolution of the screen is " + Samsung_Galaxy_S10.Resolution + "the CPU is a " + Samsung_Galaxy_S10.CPU + "last but not least it has " + Samsung_Galaxy_S10.RAM;
+    document.getElementById("New_and_This").innerHTML = "The Samsung Galaxy S10 has a " + this.Screen_size + "the resolution of the screen is " + Samsung_Galaxy_S10.Resolution + "the CPU is a " + Samsung_Galaxy_S10.CPU + "last but not least it has " + Samsung_Galaxy_S10.RAM;
 }
 
 //NESTED FUNCTIONS 
