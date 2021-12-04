@@ -65,7 +65,7 @@ function Handle_Operator (Next_Operator) {
     Calculator.Display_Value = parseFloat(result);
     Calculator.First_Operand = parseFloat(result);
     }
-Calculator.Wait_Second_Operand = parseFloat (result);
+Calculator.Wait_Second_Operand = parseFloat (true);
 Calculator.operator = Next_Operator;
 }
 
